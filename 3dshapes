@@ -17,3 +17,7 @@ PracticeShapes
 
 
 
+var shape = new THREE.SphereGeometry (100);
+var cover = new THREE.MeshNormalMaterial ();
+var ball = new THREE.Mesh (shape, cover);
+scene.add (ball);
